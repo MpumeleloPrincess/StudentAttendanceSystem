@@ -1,0 +1,88 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px; /* Increased width */
+    text-align: center;
+}
+
+/* Input Fields */
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size */
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #333333;
+    font-size: 24px; /* Increased font size */
+}
+
+/* Link Styling */
+a {
+    text-decoration: none;
+    color: #1E90FF;
+    font-size: 18px; /* Increased font size */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Additional Styling for Registration and View Pages */
+.center-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1C86EE;
+}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register New Student</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="center-content">
+        <h1>Register a New Student</h1>
+        <form action="{{ url_for('register') }}" method="post">
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <input type="text" name="surname" placeholder="Enter Surname" required>
+            <input type="text" name="student_number" placeholder="Enter Student Number" required>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
+

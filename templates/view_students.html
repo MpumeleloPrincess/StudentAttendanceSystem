@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registered Students</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="center-content">
+        <h1>Registered Students</h1>
+        <ul>
+            {% for student in students %}
+                <li>{{ student.name }} {{ student.surname }} - {{ student.student_number }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
+
